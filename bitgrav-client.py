@@ -16,7 +16,7 @@ def send_email(email):
     grav = requests.get(url=uri.format(email))
 
     print(grav.text)
-    return grav.text
+    return grav
 
     
 if __name__ == '__main__':
